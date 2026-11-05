@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Business contact details and booking-message logic live in `src/lib/booking.ts`; the booking form only prepares a text message (no backend), so never show it as "sent".
