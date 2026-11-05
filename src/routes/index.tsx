@@ -136,7 +136,7 @@ function SectionHead({ eyebrow, title }: { eyebrow: string; title: string }) {
 
 function Services() {
   return (
-    <section id="services" className="relative mx-auto max-w-6xl px-6 py-28">
+    <section id="services" className="scroll-mt-16 relative mx-auto max-w-6xl px-6 py-28">
       <SectionHead eyebrow="Services" title="Four ways to bring the shine back." />
       <div className="grid gap-px overflow-hidden rounded-2xl border bg-border md:grid-cols-2">
         {services.map((s, i) => (
@@ -162,7 +162,7 @@ function Services() {
 
 function Reviews() {
   return (
-    <section id="reviews" className="relative overflow-hidden border-y bg-card py-28">
+    <section id="reviews" className="scroll-mt-16 relative overflow-hidden border-y bg-card py-28">
       <div className="absolute inset-0 bg-gradient-plum" aria-hidden />
       <div className="relative mx-auto max-w-6xl px-6">
         <p className="eyebrow">Reviews</p>
@@ -194,7 +194,7 @@ function Reviews() {
 
 function Process() {
   return (
-    <section id="process" className="mx-auto max-w-6xl px-6 py-28">
+    <section id="process" className="scroll-mt-16 mx-auto max-w-6xl px-6 py-28">
       <SectionHead eyebrow="Process" title="Simple from first text to hand-back." />
       <ol className="grid gap-10 md:grid-cols-4">
         {steps.map((s, i) => (
@@ -247,7 +247,7 @@ function Booking() {
   const field = "bg-background/60 h-11";
 
   return (
-    <section id="book" className="mx-auto max-w-6xl px-6 pb-28">
+    <section id="book" className="scroll-mt-24 mx-auto max-w-6xl px-6 pb-28">
       <div className="grid gap-12 rounded-3xl border bg-card p-8 shadow-card md:grid-cols-[1fr_1.3fr] md:p-14">
         <div>
           <p className="eyebrow">Booking</p>
