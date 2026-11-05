@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Gloss House — Mobile Car Detailing" },
+      { title: "Gloss House — Car Detailing" },
       { name: "description", content: "Gloss House car detailing: hand wash, interior, paint care and protection." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
